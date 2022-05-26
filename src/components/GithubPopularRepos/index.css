@@ -1,0 +1,47 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.popular-heading {
+  font-size: 35px;
+  font-family: 'Lobster';
+}
+
+@media screen and (min-width: 768px) {
+  .popular-heading {
+    font-size: 50px;
+  }
+}
+
+.filter-tab-container {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-tab-container {
+    width: 40%;
+  }
+}
+
+.repo-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .repo-list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
